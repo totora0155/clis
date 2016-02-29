@@ -5,11 +5,16 @@
   "author": "nju33",
   "bin": {
     "grayscale": "./grayscale/index.js",
-    "complementary": "complementary/index.js"
+    "complementary": "complementary/index.js",
+    "imagemin": "imagemin/index.js"
   },
   "bugs": "",
   "devDependencies": {
     "color": "^0.11.1",
+    "fs-promise": "^0.4.1",
+    "gulp-rename": "^1.2.2",
+    "imagemin": "^4.0.0",
+    "imagemin-pngquant": "^4.2.2",
     "is-color": "^0.2.0",
     "minimist": "^1.2.0"
   },
