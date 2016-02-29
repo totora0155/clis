@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "author": "nju33",
   "bin": {
-    "grayscale": "./grayscale/index.js"
+    "grayscale": "./grayscale/index.js",
+    "complementary": "complementary/index.js"
   },
   "bugs": "",
   "devDependencies": {

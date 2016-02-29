@@ -10,7 +10,7 @@ process.stdin.setEncoding('utf8');
 process.stdin.on('data', (color) => {
   if (!isColor(color)) return;
 
-  const grey = Color(color.trim()).greyscale();
+  const grey = Color(color.trim()).rotate(180);
 
   if (!opts.f && !opts.format) {
     stdoutHex(grey);
