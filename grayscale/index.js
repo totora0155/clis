@@ -12,7 +12,7 @@ process.stdin.on('data', (color) => {
 
   const grey = Color(color.trim()).greyscale();
 
-  if (!opts.f && !opts.format) {
+  if ((!opts.f && !opts.format) || opts.f === 'hex' || opts.format === 'hex') {
     stdoutHex(grey);
   } else if (opts.f === 'rgb' || opts.format === 'rgb') {
     stdoutRGB(grey);
