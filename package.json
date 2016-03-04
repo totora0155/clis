@@ -5,13 +5,17 @@
   "author": "nju33",
   "bin": {
     "grayscale": "./grayscale/index.js",
-    "complementary": "complementary/index.js"
+    "complementary": "complementary/index.js",
+    "bs": "bs/index.js"
   },
   "bugs": "",
   "devDependencies": {
+    "browser-sync": "^2.11.1",
     "color": "^0.11.1",
     "is-color": "^0.2.0",
-    "minimist": "^1.2.0"
+    "is-url": "^1.2.1",
+    "minimist": "^1.2.0",
+    "object-assign": "^4.0.1"
   },
   "homepage": "",
   "keywords": [],
